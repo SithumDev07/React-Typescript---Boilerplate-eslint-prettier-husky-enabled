@@ -27,6 +27,7 @@
     "prettier" //Always set in last
   ],
   "rules": {
+    "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "react/jsx-uses-react": ["off"],
     "react/react-in-jsx-scope": ["off"],
     "react/jsx-props-no-spreading": ["warn"],
@@ -55,7 +56,7 @@
     "max-len": [
       "warn",
       {
-        "code": 80
+        "code": 100
       }
     ],
     "react-hooks/rules-of-hooks": "error",
